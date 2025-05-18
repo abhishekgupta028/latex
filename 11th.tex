@@ -1,0 +1,34 @@
+\documentclass[]{report}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{tikz}
+\usepackage{algorithm2e}
+\begin{document}
+\section*{Floyd’s Algorithm}
+Algorithm to find solution to All=Pairs Shortest=Paths Problem
+\SetKwComment{Comment}{// }{ }
+\vspace{1cm}
+\begin{algorithm}[H]
+\caption{Floyd(W [1..n, 1..n])}
+\SetAlgoLined
+\DontPrintSemicolon
+\KwIn{]}
+\KwOut{]}
+$D$ $\gets$ $W$ \Comment*[r]{}
+\For{$k \gets 1$ to $n$}{
+\For{$i \gets 1$ to $n$}{
+\For{$j \gets 1$ to $n$}{
+$D[i,j]$ $\gets min
+\lbrace D[i,j], D[i,k] + D[k,j]\rbrace$
+}
+}
+}
+\Return{$D$}\;
+\end{algorithm}
+\end{document}
