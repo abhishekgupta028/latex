@@ -1,0 +1,54 @@
+\documentclass[]{report}
+\usepackage{hyperref}
+\usepackage{draftwatermark}
+\SetWatermarkText{EXP 8 RESULT}
+\SetWatermarkScale{2}
+\usepackage[english]{babel}
+\usepackage{amsthm}
+\usepackage{amsmath} % for correct math environments
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+
+\begin{document}
+
+\begin{theorem}
+Let \(f\) be a function whose derivative exists at every point, then \(f\) is a continuous function.
+\end{theorem}
+
+\begin{theorem}[Pythagorean theorem]
+\label{pythagorean}
+This is a theorem about right triangles and can be summarised in the next equation:
+\[
+x^2 + y^2 = z^2
+\]
+\end{theorem}
+
+And a consequence of Theorem~\ref{pythagorean} is the statement in the next corollary.
+
+\begin{corollary}
+There’s no right triangle whose sides measure 3cm, 4cm, and 6cm.
+\end{corollary}
+
+You can reference theorems such as \ref{pythagorean} when a label is assigned.
+
+\begin{lemma}
+Given two line segments whose lengths are \(a\) and \(b\) respectively, there is a real number \(r\) such that \(b = ra\).
+\end{lemma}
+
+\begin{definition}[Absolute value function]
+The absolute value function can be specified as a two-part definition as follows:
+\[
+|x| =
+\begin{cases}
+x & \text{if } x \geq 0 \\
+-x & \text{if } x < 0
+\end{cases}
+\]
+\end{definition}
+
+
+\end{document}
