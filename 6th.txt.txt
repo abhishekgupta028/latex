@@ -1,0 +1,28 @@
+\documentclass[]{report}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\begin{document}
+\begin{figure}[h]
+  \centering
+  \begin{subfigure}[b]{0.3\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{"image1.jpeg"}
+  \caption{$y=$x}
+  \end{subfigure}%
+  \hfill
+  \begin{subfigure}[b]{0.3\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{"image2.jpg"}
+  \caption{$y=$3sinx}
+  \end{subfigure}%
+  \hfill
+  \begin{subfigure}[b]{0.3\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{"image3.jpg"}
+  \caption{$y=$5x}
+  \end{subfigure}
+  \caption {Three simple graphs arranged side by side}
+  \end{figure}
+  \end{document}
