@@ -1,0 +1,65 @@
+\documentclass[12pt,a4paper,oneside]{memoir}
+ \usepackage{graphicx}
+ \usepackage{xcolor}
+ \begin{document}
+ \begin{center}
+ \large\textbf{ACHARYA INSTITUTE OF TECHNOLOGY
+ }\\
+ \small\textbf{(AICTE Approved, VTU Affiliated and NAAC Accredited)\\
+ Acharya Institute of Technology,soladevanahalli,Bangalore,Karnataka-561024}\\
+ \end{center}
+ \begin{center}
+\textbf{DEPARTMENT OF INFORMATION SCIENCE AND ENGINEERING}\\
+ \small\textbf{(Accredited by NBA)}
+ \end{center}
+ \begin{center}
+ \begin{figure}[h]
+ \centering
+ \includegraphics[height=2.7cm]{Acharya.jpg}
+ \end{figure}
+ \Large{\textbf{CERTIFICATE}}
+ \end{center}
+ Certified that the Thesis work entitled\textbf{"Brain tumor detection"} is carried out
+ by\textbf{Student(1AY23IS021)ARYAN KUMAR} in partial fulfillment for the award of degree
+ of Bachelor of Engineering in \textbf{\color{blue} Information Science and
+ Engineering} of Visvesvaraya Technological University,Belagavi,during the year
+ 2024-2025.
+ It is certified that all corrections suggestions indicated during
+ internal assessment have been incorporated in the report.The project report has
+ been approved as it satisfies the academic requirements in aspect of the project
+ work prescribed for the award of degree of\textbf{\color{blue}Bachelor of
+ Engineering}.\\\\
+ \vspace{1.5cm}
+ \begin{minipage}[t]{0.3\textwidth}%
+ \small{\color{gray!35}................................}\\
+ {\centering{\color{red}Prof. Usha Kumari.V}}\\
+ \centering{Assistant Professor}\\
+ \end{minipage}\hspace{0.06cm}
+ \begin{minipage}[t]{0.3\textwidth}%
+ \small{\color{gray!35}................................}\\
+ {\centering{\color{red}Dr.Kalavenugopal}}\\
+ \centering{HOD}\\
+ \end{minipage}\hspace{0.06cm}
+ \begin{minipage}[t]{0.3\textwidth}%
+ \small{\color{gray!35}................................}\\
+ {\centering{\color{red}Dr.Marigowda.C.K}}\\
+ \centering{Principal}\\
+ \end{minipage}
+ \vspace{0.5cm}
+ \begin{center}
+ \textbf{{\color{blue}ExternalViva}}
+ \end{center}
+ \vspace{0.0cm}
+ \begin{minipage}[t]{0.80\textwidth}%
+ \textbf{Name of the examiners}\\\\
+ 1\small{\color{gray!35}..........................................}\\
+ \\
+ 2\small{\color{gray!35}..........................................}\\
+  \end{minipage}\hspace{0.07cm}
+ \begin{minipage}[t]{0.62\textwidth}%
+ \textbf{Signature with date}\\\\
+ \small{\color{gray!35}...........................................}\\
+ \\
+ \small{\color{gray!35}...........................................}\\
+ \end{minipage}
+ \end{document}
