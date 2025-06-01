@@ -1,0 +1,53 @@
+\documentclass[12pt,a4paper,oneside]{memoir}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\begin{document}
+
+\begin{center}
+\textbf{\color{black} VTU \\ Belagavi-590018}
+\vspace{0.2cm}
+\end{center}
+
+\begin{figure}[h]
+\centering
+\includegraphics[height=3cm]{vtulogo.jpeg}
+\end{figure}
+
+\begin{center}
+\small{\textbf{\color{black} LAB REPORT ON}}\\
+\LARGE{\textbf{\color{black}Technical writing using \LaTeX}}
+\vspace{0.5cm}
+\large\textit{\color{black}Thesis submitted in partial fulfillment for the award of the degree of}\\
+\textbf{\color{black} Bachelor of Engineering}\\
+\color{black}in\\
+\textbf{\color{black} Information Science and Engineering}
+\vspace{0.5cm}
+
+\textbf{\color{black} Submitted by}\\
+\begin{tabular}{ll}
+\color{black} Student Name & \hspace{5cm} USN\\
+\color{black} Your Name & \hspace{5cm} 4ALXXYYZZZ
+\end{tabular}
+\vspace{0.5cm}
+
+\textit{\color{black} Under the guidance of}\\
+\large{\textbf{\color{black} Prof. Geethalakshmi N.M}}\\
+\textit{\color{black} Associate Professor}
+\end{center}
+
+\begin{figure}[h]
+\centering
+\includegraphics[height=2.7cm]{acharyalogo.jpg4}
+\end{figure}
+
+\begin{center}
+\scriptsize\textbf{\color{black} Department of Information Science and Engineering}\\
+\end{center}
+
+\begin{center}
+\vspace{0.1cm}
+\large\textbf{\color{black} AIT}
+\end{center}
+
+\end{document}
