@@ -1,0 +1,25 @@
+\documentclass[]{report}
+\usepackage{draftwatermark}
+\SetWatermarkText{EXP  5 RESULT}
+\SetWatermarkScale{5}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{multirow}
+\usepackage{caption}
+\begin{document}
+\begin{center}
+\captionof{table}{student marks sheet}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{S.No} & \multirow{2}{*}{USN} & \multirow{2}{*}{Student Name} & \multicolumn{3}{c}{marks} \\
+\cline{4-6}
+& &&Maths & DBMS & LaTeX \\
+\hline
+1 & 4XX22XX001 & Student1 name & 88 & 77 & 97 \\
+\hline
+2 & 4XX22XX002 & Student2 name & 74 & 78 & 66 \\
+\hline
+3 & 4XX22XX003 & Student3 name & 88 & 82 & 79 \\
+\hline
+\end{tabular}
+\end{center}
+\end{document}
