@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{blindtext}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage}
+\lhead{\textit{Experiment 1}}
+\lfoot{\textit{Acharya Institute of Technology}}
+\title{Introduction to LaTeX}
+\author{Abhishek Gupta}
+\begin{document}
+\maketitle
+\section*{Starting LaTeX}
+LaTeX is a powerful language for writing scientific knowing how to use it and many useful tools are there.
+\section*{What is the importance of LaTeX over MS word}
+Since it has great ability in writing,controlling and ensuring a professional and consistent appearance from MS word and it has many special features that can be used to make the report or any article impressive.
+\newpage
+This is second page
+\maketitle 
+\end{document}
